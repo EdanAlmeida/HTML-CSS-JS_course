@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!--Seletores compostos:
+DOM = parestensco (modelo de objeto do documento);
+pais, filhos, netos, bisnetos;
+    <article>
+        <h3></h3>
+        <p>
+            <a><b></b></a>
+        </p>
+    </article>
+-->
+
+<!--Descendência:
+article a{
+    background: red;
+}
+
+o espaço entre a palavra 'article' e 'a' é chamada de desencdência;
+-->
+
+<!--
+    article p > b{
+        background: red;
+    }
+
+    - isso significa todo b que é filho direto de p;
+-->
+
+<!--Irmão adjacente:
+    article h3 + p{
+        background: red;
+    }
+
+    - pega o p que vem imediatamente depois do h3;
+-->
+
+<!--
+    article p + p{
+        color: red;
+    }
+
+    - pega os paragrafos que vem após o primeiro parágrafo(que não está incluso pq vem após um h3)
+-->
+
+<!--Próximo irmãos:
+    article h3 ~ p{
+        background: red;
+    }
+
+    - todos os parágrafos após o h3;
+-->
+
+<!--Seletores de atributos:
+    a[title]{
+        color: red;
+    }
+
+    - todo 'a' que possui o atributo title;
+
+
+    a[href^=http]{
+        color:red;
+    }
+
+    - se o atributo inicia com determinado valor (http);
+
+
+    img[src$=".png"]{
+        border-color: red;
+    }
+
+    - termina com(.png), por exemplo.
+
+
+    p:not(.destaque){
+        display: none;
+    }
+
+    - seleciona todo elemento/classe que não é alguma coisa;
+-->
+
+
+

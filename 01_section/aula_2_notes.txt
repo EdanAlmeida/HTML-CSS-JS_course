@@ -1,0 +1,3 @@
+CLASS NOTES:
+
+- tag para quebrar linha <br> (break row)

@@ -1,0 +1,32 @@
+CLASS 1 - NOTES 
+
+Hipertexto = leitura não linear;
+COmunicação entre cliente (máquina) e servidor(outra máquina)
+	pedido/requisição -> servidor -> retorna/response/devolução
+
+URL = localizador de recursos
+HTTP = Hipertext transfer protocol
+HTML = Linguagem de marcação de hipertexto (não é linguagem de programação, mas sim de marcação)
+
+	EX: wikipedia (exemplo do motivo original da criação da net)
+
+- No início era tudo gambiarra. Guerra dos navegadores (cada browser usava um tipo de código)
+
+- Sem padrão = muitos tipos o que gera muitos problemas;
+
+- W3C = objetivo de definir padrões;
+- HTML (base); CSS(formatação viaual); JS(inteligêNcia da página);
+
+- Arquivo HTML == arquivo de texto com marcações HTML;
+
+- <h1> == head 1 </h1>
+- <p> == paragraph </p>
+	- <p> paragraph in <b> bold </b> </p>
+
+- pode criar no notepad, mas os editores facilitam; [brackets, visual SC, sublime, atom]
+- A leitura é feita no browser; (mudança de paradigma)
+
+- Página = arquivo HTML (basicamente);
+- Site == pasta com vários arquivos HTML </>;
+
+	

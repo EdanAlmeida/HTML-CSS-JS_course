@@ -1,0 +1,68 @@
+<!doctype html>
+<!-- doctype informa ao agente de usuario a versão do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title> pagina de exemplo estrutura basica </title>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel">
+        <meta name="description" content="descrição bacanuda">
+        <meta name="keywords" content="html5, tecnologia">
+    </head>
+    <body>
+        <h1>Exemplo de formulario</h1>
+        
+        <form action="http://google.com/search" method="GET" target="_blank">
+            <label for="txtbusca">Faça uma busca</label>
+            <input type="text" name="q" id="txtbusca">
+            <input type="submit" value="ok">
+        </form>
+    </body>
+</html>
+
+
+<!--Form tag
+<form></form> == formulário
+-->
+
+<!--INPUT
+    recebimento de dados;
+
+    <input type="text">
+    <input type+"submit" value="OK"
+    <form action="pagina.php" method="get">
+
+        get = passa o dado na própria url da página = menos segurança e menos dados;
+        post = + segurança e para mais dados;
+
+    name='q'
+-->>
+
+<!--ETIQUETA:
+    label == <label>Faça uma busca</label>
+
+    CONECTAR:
+    label == <label for="txtbusca">Faça uma busca</label>
+    <input type="text" name="q" id="txtbusca">
+
+    - Embora o resultado seja o mesmo, a semântica da página está bem mais forte e coerente.
+-->
+
+<!--ORGANIZAR ENTRADA DE DADOS:
+
+-->>
+
+
+<!--TAG FIELDSET:
+
+    <form action="pagina.php" method="post">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="log">User:</label>
+            <input type="text" name="text" id="log">
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pas">
+            </fieldset>
+
+        <input type="submit" value="Login">
+        </form>
+-->
